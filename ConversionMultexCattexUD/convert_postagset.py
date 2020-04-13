@@ -21,6 +21,8 @@ def convert_corpus(corpus_before, table, pos_col, lemma_col):
 	return corpus
 
 if __name__ == '__main__':
+	print('---------------- If you find mistakes in the conversion tables, please send me an email (jbtanguy56@gmail.com). ----------------')
+
 	# 1. static variables: to modify regarding your case
 	_path_corpus = 'res_cattex.csv' # path to the local corpus: it must be a csv-like file (+ first row = columns name = head)
 	_path_cenverted_corpus = 'res_cattex_multext.csv'
